@@ -13,3 +13,6 @@ Feature: To create the Job entry in the test application
     And status 201
     * def responseJobId = response.jobId
     * def responseJobTitle = response.jobTitle
+    * print "Helper ==> ", responseJobId
+    * print "Helper ==> ", responseJobTitle
+   

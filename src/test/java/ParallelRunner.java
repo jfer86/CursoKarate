@@ -1,7 +1,7 @@
 import org.junit.jupiter.api.Test;
 import com.intuit.karate.Runner.Builder;
 
-public class ParallelBuilder {
+public class ParallelRunner {
 
     /**
      * 
@@ -9,11 +9,10 @@ public class ParallelBuilder {
     @Test
     public void executeKaratetest() {
         Builder aRunner = new Builder();
-        aRunner.path("classpath:fileUpload");
+        aRunner.path("classpath:java");
         aRunner.parallel(0);
+        aRunner.tags("@smoke");
         
-
-
     }
 
 }
