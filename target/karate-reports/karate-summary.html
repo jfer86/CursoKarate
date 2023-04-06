@@ -19,34 +19,37 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
   capture_pageview:false,
   api_transport:'sendBeacon',
   loaded: function(posthog) { 
-    posthog.identify("818b846c-450b-4134-9866-4fccc2287c66",{name:"Usuario"});
-    posthog.capture("report_summary",{karate_version:"1.2.0",karate_meta:null});
+    posthog.identify("689ea3a7-4b1b-4390-af53-a0b883ae448c");
+    posthog.capture("report_summary",{karate_version:"1.4.0-SNAPSHOT",karate_meta:"vscode:0.8.0"});
   }
 });
 </script>
 
-    <title>Karate Summary Report</title>  
+    <title>Karate Summary Report</title>
   </head>
-  <body>   
+  <body>
     <div id="root-container">
       <div id="leftnav">
-                
+        
         <div>
   <div class="nav-logo">
     <a href="https://karatelabs.io">
       <img src="karate-labs-logo-ring.svg" alt="Karate Labs"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">1</div>
-      <div id="nav-fail" class="bg-danger">0</div>
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
     </div>
+  </div>
+  <div id="nav-env">
+    <div></div>
   </div>
   <div id="nav-type">
     <div>Features</div>
-  </div>         
+  </div>
   <div id="nav-date">
-    <div>2023-03-09 01:44:20 p. m.</div>
-  </div>        
+    <div>2023-04-05 02:33:58 p. m.</div>
+  </div>
 </div>
 
       </div>
@@ -54,7 +57,7 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
         <div class="page-heading alert alert-primary">
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <a href="karate-timeline.html">Timeline</a>
-        </div>       
+        </div>
         <table class="features-table table table-sm">
           <thead>
             <tr>
@@ -67,16 +70,16 @@ posthog.init('phc_M6fKk3dSX9HjglkqPSybauGas45NINb7EgsPGU8N9g1',{
             </tr>
           </thead>
           <tbody>
-            <tr class="passed">              
+            <tr class="failed">
               <td>
-                <a href="src.test.java.postrequest.postDataDriven.html">src/test/java/postrequest/postDataDriven.feature</a>
+                <a href="src.test.java.postrequest.createJobentry.html">src/test/java/postrequest/createJobentry.feature</a>
               </td>
-              <td>to create job description in the test application</td>
-              <td class="num">2</td>
+              <td>to create job entry in the application</td>
               <td class="num">0</td>
-              <td class="num">2</td>
-              <td class="num">163</td>            
-            </tr>            
+              <td class="num">1</td>
+              <td class="num">1</td>
+              <td class="num">267</td>
+            </tr>
           </tbody>
         </table>
       </div>

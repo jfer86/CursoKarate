@@ -1,0 +1,14 @@
+/target/
+/.classpath
+/.project
+/.settings/
+/.factorypath
+*.log
+*.tmp
+*.swp
+*.bak
+*.orig
+*.class
+*.jar
+*.war
+*.ear
