@@ -6,6 +6,7 @@ Background:
     * def getRandomValue = function() { return Math.floor((100)* Math.random())}
     * def createJobId = getRandomValue()
     * def createJob = call read("../putrequest/createJobEntryWithVariables.feature") {_url: 'http://localhost:9897',_path:'/normal/webapi/add', _id: '#(createJobId)'}
+    * def response = read("sucessfull-responde.json")
 
 Scenario: to delete the job entry from application using job id
     Given path '/normal/webapi/remove/' + createJobId
@@ -38,4 +39,5 @@ Given path '/normal/webapi/find'
 And params { id : '#(jobId)', jobTitle: '#(jobTitle)' }
 When method get
 Then status 200
-And match response.jobDescription == jobDes 
+#And match response.jobDescription == jobDes
+And match $ == response

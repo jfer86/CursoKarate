@@ -1,0 +1,31 @@
+{
+  "jobId":"#number",
+  "jobTitle":"#number",
+  "jobDescription":"#string",
+  "experience":[
+    "#number",
+    "#string",
+    "#string",
+    "#string"
+  ],
+  "project":[
+    {
+      "projectName":"#string",
+      "technology":[
+        "#string",
+        "#string",
+        "#string",
+        "#string"
+      ]
+    },
+    {
+      "projectName":"#string",
+      "technology":[
+        "#string",
+        "#string",
+        "#string",
+        "#string"
+      ]
+    }
+  ]
+}

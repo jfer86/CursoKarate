@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ParallelRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-06T19:57:36" hostname="DESKTOP-GR1BAN2" time="1.343">
+<testsuite name="ParallelBuilder" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-10T20:33:52" hostname="DESKTOP-GR1BAN2" time="1.353">
   <properties/>
-  <testcase name="executeKaratetest()" classname="ParallelRunner" time="1.343"/>
-  <system-out><![CDATA[14:57:36.871 [Test worker] INFO com.intuit.karate.Suite - backed up existing 'build\karate-reports' dir to: build\karate-reports_1680811056870
+  <testcase name="executeKaratetest()" classname="ParallelBuilder" time="1.353"/>
+  <system-out><![CDATA[15:33:53.251 [Test worker] INFO com.intuit.karate.Suite - backed up existing 'build\karate-reports' dir to: build\karate-reports_1681158833249
 Karate version: 1.2.0
 ======================================================
-elapsed:   0,46 | threads:    1 | thread time: 0,00 
+elapsed:   0,48 | threads:    1 | thread time: 0,00 
 features:     0 | skipped:    0 | efficiency: 0,00
 scenarios:    0 | passed:     0 | failed: 0
 ======================================================
-14:57:37.306 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
-14:57:37.451 [Test worker] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
+15:33:53.685 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+15:33:53.827 [Test worker] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
 [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
 [THYMELEAF] * Thymeleaf version: 3.0.14.RELEASE (built 2021-12-08T00:45:29+0000)
 [THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
@@ -395,9 +395,9 @@ scenarios:    0 | passed:     0 | failed: 0
 [THYMELEAF]             * [{script} {ka:scope,data-ka-scope}] [1000]: com.intuit.karate.template.KaScriptElemProcessor
 [THYMELEAF]             * [* {ka:set,data-ka-set}] [1000]: com.intuit.karate.template.KaSetElemProcessor
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
-14:57:37.457 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-14:57:37.579 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
-14:57:37.589 [Test worker] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
+15:33:53.832 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+15:33:53.948 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+15:33:53.957 [Test worker] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
 [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
 [THYMELEAF] * Thymeleaf version: 3.0.14.RELEASE (built 2021-12-08T00:45:29+0000)
 [THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
@@ -782,9 +782,9 @@ scenarios:    0 | passed:     0 | failed: 0
 [THYMELEAF]             * [{script} {ka:scope,data-ka-scope}] [1000]: com.intuit.karate.template.KaScriptElemProcessor
 [THYMELEAF]             * [* {ka:set,data-ka-set}] [1000]: com.intuit.karate.template.KaSetElemProcessor
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
-14:57:37.592 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
-14:57:37.677 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
-14:57:37.687 [Test worker] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
+15:33:53.959 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+15:33:54.051 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+15:33:54.061 [Test worker] DEBUG org.thymeleaf.TemplateEngine.CONFIG - Initializing Thymeleaf Template engine configuration...
 [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
 [THYMELEAF] * Thymeleaf version: 3.0.14.RELEASE (built 2021-12-08T00:45:29+0000)
 [THYMELEAF] * Cache Manager implementation: org.thymeleaf.cache.StandardCacheManager
@@ -1169,7 +1169,7 @@ scenarios:    0 | passed:     0 | failed: 0
 [THYMELEAF]             * [{script} {ka:scope,data-ka-scope}] [1000]: com.intuit.karate.template.KaScriptElemProcessor
 [THYMELEAF]             * [* {ka:set,data-ka-set}] [1000]: com.intuit.karate.template.KaSetElemProcessor
 [THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
-14:57:37.688 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+15:33:54.063 [Test worker] DEBUG org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
 
 HTML report: (paste into browser to view) | Karate version: 1.2.0
 file:///C:/Users/Juan/IdeaProjects/CursoKarate/build/karate-reports/karate-summary.html
